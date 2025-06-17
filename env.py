@@ -1,0 +1,18 @@
+NUM_TRIALS = 1
+
+EPSILON_HIST_UNCORR = 1
+NUM_BINS_UNCORR = 10
+NOISE_HIST_UNCORR = 0
+
+EPSILON_HIST_CORR = 4
+NUM_BINS_CORR = 10
+NOISE_HIST_CORR = 1
+
+AVG_EPSILON_LAPLACE = {
+    'age': 4,
+    'occupation': 4
+}
+AVG_EPSILON_DELTA_GAUSS = {
+    'age': (4, 0.0001),
+    'occupation': (4, 0.0001),
+}
